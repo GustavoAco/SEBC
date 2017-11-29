@@ -1,4 +1,5 @@
-[gustavoaco@nodo3 hadoop-0.20-mapreduce]$  hadoop jar hadoop-examples.jar teragen 100000000 /user/gustavoaco/terasort-input
+<code>
+  [gustavoaco@nodo3 hadoop-0.20-mapreduce]$  hadoop jar hadoop-examples.jar teragen 100000000 /user/gustavoaco/terasort-input
 :38 INFO terasort.TeraGen: Generating 100000000 using 2
 17/11/28 23:00:38 INFO mapreduce.JobSubmitter: number of splits:2
 17/11/28 23:00:38 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1511905996400_0002
@@ -171,4 +172,4 @@ Spent 809ms computing partitions.
         File Output Format Counters
                 Bytes Written=10000000000
 17/11/28 23:20:27 INFO terasort.TeraSort: done
-
+</code>
