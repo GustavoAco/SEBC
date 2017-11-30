@@ -17,3 +17,25 @@ v18
  <h3>Versión CM</h3>
  
 ```
+[root@node1 html]# curl -u admin:admin http://localhost:7180/api/v18/users
+{
+  "items" : [ {
+    "name" : "GustavoAco",
+    "roles" : [ "ROLE_ADMIN" ]
+  }, {
+    "name" : "admin",
+    "roles" : [ "ROLE_ADMIN" ]
+  }, {
+    "name" : "minotaur",
+    "roles" : [ "ROLE_CONFIGURATOR" ]
+  } ]
+}
+```
+<h3>Cm Bd</h3>
+```
+ curl -u admin:admin http://localhost:7180/api/v18/cm/scmDbInfo
+{
+  "scmDbType" : "MYSQL",
+  "embeddedDbUsed" : false
+}
+```
