@@ -1,6 +1,6 @@
-''' There were 10132 failed login attempts since the last successful login.
+´´´´ There were 10132 failed login attempts since the last successful login.
 Last login: Wed Nov 29 23:06:29 2017 from nodo1.gus.com
 [root@nodo1 ~]# cat /var/kerberos/krb5kdc/kadm5.acl
 */admin@GUS.COM *
 cloudera-scm@GUS.COM admilc
-'''
+´´´
