@@ -19,3 +19,21 @@ No rows selected (2.271 seconds)
 0: jdbc:hive2://node2.gus.com:10000/default>
 
 ```
+# USUARIO  Ferdinand
+```
+INFO  : Compiling command(queryId=hive_20171201052424_cb121021-368e-4dff-a064-5f4d773d7917): show tables
+INFO  : Semantic Analysis Completed
+INFO  : Returning Hive schema: Schema(fieldSchemas:[FieldSchema(name:tab_name, type:string, comment:from deserializer)], properties:null)
+INFO  : Completed compiling command(queryId=hive_20171201052424_cb121021-368e-4dff-a064-5f4d773d7917); Time taken: 0.07 seconds
+INFO  : Executing command(queryId=hive_20171201052424_cb121021-368e-4dff-a064-5f4d773d7917): show tables
+INFO  : Starting task [Stage-0:DDL] in serial mode
+INFO  : Completed executing command(queryId=hive_20171201052424_cb121021-368e-4dff-a064-5f4d773d7917); Time taken: 0.113 seconds
+INFO  : OK
++-----------+--+
+| tab_name  |
++-----------+--+
+| sample_07  |
++------------+--+
+1 rows selected (0.187 seconds)
+```
+
