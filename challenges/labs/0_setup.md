@@ -12,7 +12,7 @@
 Red Hat 7.4
 
 #Capacity Nodo1
-
+```
 [root@nodo1 cloudera]# df -h
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2        32G  1.6G   30G   5% /
@@ -26,6 +26,7 @@ tmpfs           3.2G     0  3.2G   0% /run/user/1000
 tmpfs           3.2G     0  3.2G   0% /run/user/0
 /dev/sdc        128G   33M  128G   1% /mnt/hdd1
 /dev/sdd        128G   33M  128G   1% /mnt/hdd2
+```
 
 
  #yum repolist 
