@@ -8,7 +8,7 @@
 Allowing snaphot on /user/gustavoaco/precious succeeded
 [gustavoaco@nodo3 ~]$ HADOOP_USER_NAME=hdfs hdfs dfs -createSnapshot /user/gustavoaco/precious sebc-hdfs-test                                                           Created snapshot /user/gustavoaco/precious/.snapshot/sebc-hdfs-test
   </code>
- # Creando Eliminando Archivo                           
+ #  Eliminando Archivo                           
  [gustavoaco@nodo3 ~]$ HADOOP_USER_NAME=hdfs hdfs dfs -rm -r  /user/gustavoaco/precious/SEBC.zip
  # Recuperando archivo 
 <code> [gustavoaco@nodo3 ~]$HADOOP_USER_NAME=hdfs hdfs dfs -cp /user/gustavoaco/precious/.snapshot/sebc-hdfs-test/SEBC.zip /user/gustavoaco/precious
