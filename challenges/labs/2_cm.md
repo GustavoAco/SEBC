@@ -8,9 +8,10 @@ mysql-community.repo  mysql-community-source.repo  redhat.repo  rh-cloud.repo
 [root@nodo2 nodo2]# ls /etc/yum.repos.d/                                        cloudera.repo         mysql-community-source.repo  rh-cloud.repo
 mysql-community.repo  redhat.repo
 
+/usr/share/cmf/schema/scm_prepare_database.sh mysql scm cloudera C@paCuatro1.
 
 #db.properties
-<code>
+
 # The database name
 com.cloudera.cmf.db.name=smc
 
@@ -26,6 +27,6 @@ com.cloudera.cmf.db.password=C@paCuatro1.
 # If scm-server uses External DB then it is set to EXTERNAL
 com.cloudera.cmf.db.setupType=EXTERNAL
 
-</code>
+
 
 
