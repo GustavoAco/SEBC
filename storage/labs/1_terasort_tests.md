@@ -1,4 +1,4 @@
-<h3>Terasort</h3>
+<h3>Teragen</h3>
  <strong><code>hadoop jar hadoop-examples.jar teragen 100000000 /user/gustavoaco/terasort-input</code> </strong>
  </br>
  <code>
