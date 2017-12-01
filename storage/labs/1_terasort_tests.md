@@ -1,6 +1,7 @@
 <h3>Teragen</h3>
  <strong><code>hadoop jar hadoop-examples.jar teragen 100000000 /user/gustavoaco/terasort-input</code> </strong>
  
+ </br></br></br>
  <code>
  [gustavoaco@nodo3 hadoop-0.20-mapreduce]$  hadoop jar hadoop-examples.jar teragen 100000000 /user/gustavoaco/terasort-input
 :38 INFO terasort.TeraGen: Generating 100000000 using 2
@@ -27,10 +28,10 @@ e.Job:  map 48% reduce 0%
 [gustavoaco@nodo3 hadoop-0.20-mapreduce]$ 17/11/28 23:00:38 INFO terasort.TeraGen: Generating 100000000 using 2
                 HDFS: Number of large read operations=0
  </code>
- 
+  </br></br></br>
  <h3>Terasort</h3>
  <strong><code>hadoop jar hadoop-examples.jar terasort /user/gustavoaco/terasort-input /user/gustavoaco/terasort-output</code></strong>
- 
+  </br></br></br>
  <code>
 [gustavoaco@nodo3 hadoop-0.20-mapreduce]$ hadoop jar hadoop-examples.jar terasort /user/gustavoaco/terasort-input /user/gustavoaco/terasort-output
 17/11/28 23:18:06 INFO terasort.TeraSort: starting
