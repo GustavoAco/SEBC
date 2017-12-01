@@ -30,7 +30,7 @@ tmpfs           3.2G     0  3.2G   0% /run/user/0
 
 
  #yum repolist 
-
+<code>
  [root@nodo1 cloudera]# yum repolist enabled
 Loaded plugins: langpacks, product-id, search-disabled-repos
 repo id                                                           repo na status
@@ -58,3 +58,27 @@ repo id                                                           repo na status
 !rhui-rhel-server-rhui-rhscl-7-source-rpms/7Server/x86_64         Red Hat  3,841
 repolist: 65,056
 </code>
+
+
+# add users
+[root@nodo1 cloudera]# useradd -u 2800 saturn
+[root@nodo1 cloudera]#  useradd -u 2900 haley
+
+#Add user Group
+[root@nodo1 cloudera]# usermod -a -G planets saturn
+[root@nodo1 cloudera]# usermod -a -G comets saturn
+# /etc/passwd
+haley:x:2900:2900::/home/haley:/bin/bash
+saturn:x:2800:2800::/home/saturn:/bin/bash
+
+# /etcgroup
+comets:x:2901:haley
+planets:x:2902:saturn
+
+
+
+
+
+
+
+
