@@ -12,7 +12,7 @@
 Red Hat 7.4
 
 #Capacity Nodo1
-<code>
+
 [root@nodo1 cloudera]# df -h
 Filesystem      Size  Used Avail Use% Mounted on
 /dev/sda2        32G  1.6G   30G   5% /
@@ -26,9 +26,10 @@ tmpfs           3.2G     0  3.2G   0% /run/user/1000
 tmpfs           3.2G     0  3.2G   0% /run/user/0
 /dev/sdc        128G   33M  128G   1% /mnt/hdd1
 /dev/sdd        128G   33M  128G   1% /mnt/hdd2
-</code>
+
+
  #yum repolist 
- <code>
+
  [root@nodo1 cloudera]# yum repolist enabled
 Loaded plugins: langpacks, product-id, search-disabled-repos
 repo id                                                           repo na status
@@ -55,5 +56,4 @@ repo id                                                           repo na status
 !rhui-rhel-server-rhui-rhscl-7-rpms/7Server/x86_64                Red Hat  9,198
 !rhui-rhel-server-rhui-rhscl-7-source-rpms/7Server/x86_64         Red Hat  3,841
 repolist: 65,056
-
- </code>
+</code>
